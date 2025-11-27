@@ -1,8 +1,11 @@
 extends Label
 
-var score = 0
+var score: int = 0
 
+func reset_score() -> void:
+	score = 0
+	text = "Score: 0"
 
-func _on_Mob_squashed():
-	score += 1
+func add_points(value: int) -> void:
+	score += value
 	text = "Score: %s" % score

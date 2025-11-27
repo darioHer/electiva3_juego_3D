@@ -1,4 +1,10 @@
 res://Main.tscn
 res://ui_theme.tres
 res://Player.gd
+res://hud.tscn
+res://hud.gd
+res://Main.gd
+res://pausa_menu.gd
 res://Mob.gd
+res://ScoreLabel.gd
+res://Mob.tscn

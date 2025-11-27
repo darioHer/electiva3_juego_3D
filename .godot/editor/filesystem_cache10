@@ -1,16 +1,23 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764037767
+::res://::1764195813
+0.png::CompressedTexture2D::9060770729615513146::1764195767::1764195840::1::::<><><>0<>0<>5872c60c18eacd4cae580ca94eba7d35<>res://.godot/imported/0.png-30cc601930bfed815371fe5acba60898.ctex::
+50.png::CompressedTexture2D::1248053083266602817::1764195792::1764195840::1::::<><><>0<>0<>b80b1ac26c35fb771ba43e176292b6db<>res://.godot/imported/50.png-c46a0a97cdbc5989ca6f7025ad6a0820.ctex::
+100.png::CompressedTexture2D::1848377111291050556::1764195802::1764195840::1::::<><><>0<>0<>f6613641d7237bcec1a4e62212cfbbfc<>res://.godot/imported/100.png-8edee735db050752dbf3b0b342896877.ctex::
+Frame.png::CompressedTexture2D::429708810070710720::1764195814::1764195840::1::::<><><>0<>0<>b14b7be8eb6ff4f10fdb161ee4eb198a<>res://.godot/imported/Frame.png-9a9f8fc70c94051821e7a962c6ccbb93.ctex::
+helth bar.png::CompressedTexture2D::1602445967211050697::1764194700::1764194702::1::::<><><>0<>0<>267684783d6c895a7e48552fe4c4dd09<>res://.godot/imported/helth bar.png-a61048dac810d413d882aaaa8b326316.ctex::
 icon.png::CompressedTexture2D::4257438768798216798::1701688769::1764037769::1::::<><><>0<>0<>fcb1adebf8f6ee42691344cb66153566<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-Main.gd::GDScript::1478889934934275726::1764037743::0::1::::<>Node<><>0<>0<><>::
-Main.tscn::PackedScene::-1::1764037743::0::1::::<><><>0<>0<><>::res://Main.gd<>res://Player.tscn<>res://Mob.tscn<>res://ScoreLabel.gd<>res://ui_theme.tres
-Mob.gd::GDScript::5683371286497188199::1764037743::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Main.gd::GDScript::1478889934934275726::1764193290::0::1::::<>Node<><>0<>0<><>::
+Main.tscn::PackedScene::415929522359228173::1764193840::0::1::::<><><>0<>0<><>::uid://vcndo68snvgg::::res://Main.gd<>res://Player.tscn<>res://Mob.tscn<>uid://bqh6ndtkrlj2v::::res://ScoreLabel.gd<>uid://c6kxmlol2vbey::::res://hud.tscn<>uid://boi13fc3o8io2::::res://ui_theme.tres
+Mob.gd::GDScript::5683371286497188199::1764038433::0::1::::<>CharacterBody3D<><>0<>0<><>::
 Mob.tscn::PackedScene::-1::1764037743::0::1::::<><><>0<>0<><>::res://Mob.gd<>res://art/mob.glb
 MusicPlayer.tscn::PackedScene::-1::1764037743::0::1::::<><><>0<>0<><>::res://art/House In a Forest Loop.ogg
-Player.gd::GDScript::8555885408251114559::1764037743::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.gd::GDScript::8555885408251114559::1764192643::0::1::::<>CharacterBody3D<><>0<>0<><>::
 Player.tscn::PackedScene::-1::1764037743::0::1::::<><><>0<>0<><>::res://Player.gd<>res://art/player.glb
+hud.tscn::PackedScene::6970757817987102044::1764193842::0::1::::<><><>0<>0<><>::uid://w3iby56iw8jd::::res://helth bar.png<>uid://dk6mlxpc16vha::::res://hud.gd
+hud.gd::GDScript::7925895676817609562::1764192643::0::1::::<>CanvasLayer<><>0<>0<><>::
 ScoreLabel.gd::GDScript::3525798455675411639::1764037743::0::1::::<>Label<><>0<>0<><>::
-ui_theme.tres::Theme::-1::1764037743::0::1::::<><><>0<>0<><>::res://fonts/Montserrat-Medium.ttf
-::res://art/::1764037769
+ui_theme.tres::Theme::3387208427697864703::1764192947::0::1::::<><><>0<>0<><>::uid://wr6v0asbbmc::::res://fonts/Montserrat-Medium.ttf
+::res://art/::1764039759
 body.tres::StandardMaterial3D::-1::1764037743::0::1::::<><><>0<>0<><>::
 eye.tres::StandardMaterial3D::-1::1764037743::0::1::::<><><>0<>0<><>::
 House In a Forest Loop.ogg::AudioStreamOggVorbis::8479194545776290669::1701688769::1764037769::1::::<><><>0<>0<>33d28427c8ff4a076a3927bdc9d1ec28<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
@@ -19,6 +26,6 @@ mob_body.tres::StandardMaterial3D::-1::1764037743::0::1::::<><><>0<>0<><>::
 mob_eye.tres::StandardMaterial3D::-1::1764037743::0::1::::<><><>0<>0<><>::
 player.glb::PackedScene::8165836764453025589::1701688769::1764037770::1::::<><><>0<>0<>c0f602395bcb51ff5af0ab354997f300<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
 pupil.tres::StandardMaterial3D::-1::1764037743::0::1::::<><><>0<>0<><>::
-::res://fonts/::1701688769
+::res://fonts/::1764039759
 LICENSE.txt::TextFile::-1::1701688769::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile::46505000711955078::1701688769::1764037769::1::::<><><>0<>0<>9997ff6552c8088b3794dcacdc2d1c30<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://c6kxmlol2vbey"]
+
+[ext_resource type="Script" uid="uid://dk6mlxpc16vha" path="res://hud.gd" id="1_64ctp"]
+[ext_resource type="Texture2D" uid="uid://d2ddtnccaqc8q" path="res://0.png" id="2_640wx"]
+[ext_resource type="Texture2D" uid="uid://gefig74o1e77" path="res://Frame.png" id="3_a2258"]
+[ext_resource type="Texture2D" uid="uid://1lmrbegrb3oy" path="res://100.png" id="4_1xsix"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_64ctp")
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+offset_left = 330.0
+offset_top = -20.0
+offset_right = 430.0
+offset_bottom = 80.0
+max_value = 3.0
+value = 3.0
+texture_under = ExtResource("2_640wx")
+texture_over = ExtResource("3_a2258")
+texture_progress = ExtResource("4_1xsix")
